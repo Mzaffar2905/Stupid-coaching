@@ -1,3 +1,29 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+$gray: #F4F4F4;
+
+body {
+ text-align: center;
+  background: $gray;
+  background-image: url(https://images.unsplash.com/photo-1550686041-366ad85a1355?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+p{
+    font-size: 30px;
+    color: red;
+}
+  a {
+    color: white;
+    &:hover {
+      color: black;
+    }
+  }
+
+  h1{
+    font-size: 50px;
+      color: red;
+  }
